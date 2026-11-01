@@ -32,7 +32,7 @@
       cursor: none;
     }
 
-    /* Custom cursor */
+    
     .cursor {
       width: 12px; height: 12px;
       background: var(--accent-glow);
@@ -53,7 +53,7 @@
       transition: transform 0.35s cubic-bezier(.2,.8,.4,1), opacity 0.2s;
     }
 
-    /* Noise overlay */
+    
     body::before {
       content: '';
       position: fixed; inset: 0;
@@ -63,7 +63,7 @@
       opacity: 0.5;
     }
 
-    /* NAV */
+    
     nav {
       position: fixed; top: 0; left: 0; right: 0;
       z-index: 100;
@@ -134,7 +134,7 @@
     }
     .btn-ghost:hover { color: var(--text); border-color: rgba(108,92,231,0.4); }
 
-    /* HERO */
+    
     .hero {
       min-height: 100vh;
       display: flex; align-items: center; justify-content: center;
@@ -189,7 +189,7 @@
       50% { transform: translateY(20px); }
     }
 
-    /* Grid lines */
+    
     .grid-lines {
       position: absolute; inset: 0;
       background-image:
@@ -275,7 +275,7 @@
       letter-spacing: 0.06em;
     }
 
-    /* FEATURES */
+    
     section { padding: 120px 60px; position: relative; }
 
     .section-label {
@@ -357,7 +357,7 @@
       font-weight: 300;
     }
 
-    /* FEATURED CARD (large) */
+    
     .feat-card.large {
       grid-column: span 2;
       display: flex; gap: 40px; align-items: center;
@@ -373,7 +373,7 @@
       font-size: 3rem;
     }
 
-    /* CTA SECTION */
+    
     .cta-section {
       text-align: center;
       background: var(--surface);
@@ -410,7 +410,7 @@
     }
     .cta-btns { display: flex; gap: 14px; justify-content: center; position: relative; }
 
-    /* FOOTER */
+    
     footer {
       padding: 40px 60px;
       border-top: 1px solid var(--border);
@@ -439,7 +439,7 @@
       font-size: 0.8rem;
     }
 
-    /* Animations on scroll */
+    
     .reveal {
       opacity: 0;
       transform: translateY(30px);
@@ -467,7 +467,7 @@
   <div class="cursor" id="cursor"></div>
   <div class="cursor-ring" id="cursorRing"></div>
 
-  <!-- NAV -->
+  
   <nav>
     <div class="nav-logo">Logos</div>
     <ul class="nav-links">
@@ -480,7 +480,7 @@
     </a>
   </nav>
 
-  <!-- HERO -->
+  
   <section class="hero">
     <div class="hero-bg">
       <div class="orb orb-1"></div>
@@ -519,7 +519,7 @@
     </div>
   </section>
 
-  <!-- FEATURES -->
+  
   <section id="features">
     <div style="max-width:1200px; margin:0 auto;">
       <div class="reveal">
@@ -577,7 +577,7 @@
     </div>
   </section>
 
-  <!-- CTA -->
+  
   <section class="cta-section" id="cta">
     <div class="cta-inner">
       <div class="cta-glow"></div>
